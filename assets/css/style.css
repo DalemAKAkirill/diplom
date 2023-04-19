@@ -49,6 +49,77 @@ h1,h2,h3,h4,h5,h6{
     padding: 0 10px;
 }
 
+.title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.fs-18{
+    font-size: 18px !important;
+}
+
+.padd-5px{
+    padding: 5px 0;
+}
+.padd-15px{
+    padding: 15px 0;
+}
+.padd-1{
+    padding: 1rem 0;
+}
+.padd-2{
+    padding: 2rem 0;
+}
+
+
+.mar-2{
+    margin: 2rem 0;
+}
+.mar-4{
+    margin: 4rem 0;
+}
+
+.bg-main{
+    background-color: #97E5E9;
+}
+
+.blue-btn{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #257081;
+    outline: none;
+    color: #000;
+    background-color: #97E5E9;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 40px;
+}
+.blue-btn:hover{
+    background-color: #fff;
+    color: #257081;
+}
+
+.right-direction{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.center-direction{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 .header{
     width: 100%;
     display: flex;
@@ -215,7 +286,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .slide_show__container{
-    max-width: 1920px;
+    max-width: 1700px;
     width: 100%;
     display: flex;
     overflow: hidden;
@@ -232,4 +303,174 @@ h1,h2,h3,h4,h5,h6{
     max-width: 100%;
     height: auto;
     background-color: #257081;
+}
+
+.statistic__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.static__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    max-width: 370px;
+    width: 100%;
+}
+
+.static__block .count{
+    font-size: 64px;
+    font-weight: 700;
+    color: #257081;
+}
+
+.static__block h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+.news__list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.news__block{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.news__img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.news__img img{
+    width: 100%;
+    height: auto;
+}
+
+.news__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: fit-content;
+}
+
+.news__title h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.brands__list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brand{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.brand img{
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/Futer.png);
+    font-size: 20px;
+    color: #257081;
+    font-weight: 700;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer .opacity-bg-blue{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer a{
+    font-weight: 700;
+    font-size: 20px;
+    color: #257081;
+}
+
+.opacity-bg-blue{
+    width: 100%;
+    height: 100%;
+    background-color: hsla(183, 65%, 75%, 0.5);
+}
+
+.footer__container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav__footer{
+    margin: 0 30px;
+}
+
+.info__footer{
+    margin: 0 30px;
+}
+
+.link-copyrith__footer{
+    margin: 0 30px;
+}
+
+.info__footer span{
+    letter-spacing: 0.065em;
+}
+
+.link__social h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.link__social ul{
+    display: flex;
+}
+
+.link__social li{
+    padding: 0 10px;
+}
+
+.copyrith h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
 }
