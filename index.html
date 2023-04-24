@@ -6,31 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Покупка бумаги PaperFeather</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
 </head>
 <body>
+    <div class="popup_reg_log" id="popupRL">
+    </div>
     <div class="wrapper">
         <header class="header">
             <div class="header__content container">
                 
                     <div class="logo__container">
-                        <div class="logo__img">
-                            <img src="assets/images/logo.png" alt="Логотип">
-                        </div>
-                        <div class="logo__title">
-                            <h1>
-                                Paper
-                                <br>
-                                Feather
-                            </h1>
-                        </div>
+                        <a href="/">
+                            <div class="logo__img">
+                                <img src="assets/images/logo.png" alt="Логотип">
+                            </div>
+                            <div class="logo__title">
+                                <h1>
+                                    Paper
+                                    <br>
+                                    Feather
+                                </h1>
+                            </div>
+                        </a>
                     </div>
                 
                     <div class="navigation__container">
                         <nav class="navigation__header">
                             <ul>
-                                <li><a href="#">Каталог</a></li>
-                                <li><a href="#">Контакты</a></li>
-                                <li><a href="#">О компании</a></li>
+                                <li><a href="catalog.html">Каталог</a></li>
+                                <li><a href="contact.html">Контакты</a></li>
+                                <li><a href="about.html">О компании</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -48,7 +53,7 @@
                         <a href="#">
                             <img src="assets/images/basket.png" alt="Корзина">
                         </a>
-                        <a href="#">
+                        <a href="#" id="popup_reg_log_btn">
                             <img src="assets/images/exit.png" alt="Выход/Вход">
                         </a>
                     </div>
@@ -221,6 +226,7 @@
         </footer>
     </div>
 
+    <script src="assets/js/main.js"></script>
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/counter.js"></script>
 </body>

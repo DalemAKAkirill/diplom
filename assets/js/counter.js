@@ -14,7 +14,6 @@ window.addEventListener('load', function(){
     counterArr.innerHTML = 100;
 
     function main(){
-        console.log(count);
         if(flag){
             return;
         }
@@ -27,10 +26,35 @@ window.addEventListener('load', function(){
             counterArr[i].innerHTML = count;
         }
         count += 1;
-        console.log(1);
 
-        setTimeout(main, 10);
+        setTimeout(main, 20);
     }
+
+    // function isVisible(elem) {
+
+    //     let coords = elem.getBoundingClientRect();
+
+    //     let windowHeight = document.documentElement.clientHeight;
+
+    //     // видны верхний ИЛИ нижний край элемента
+    //     let topVisible = coords.top > 0 && coords.top < windowHeight;
+    //     let bottomVisible = coords.bottom < windowHeight && coords.bottom > 0;
+
+    //     return topVisible || bottomVisible;
+    // }
+    // function showVisible() {
+    //     for (let count of document.querySelectorAll('.count')) {
+    //             if (isVisible(count)) {
+    //             // отключение кеширования
+    //             // эта строка должна быть удалена в "боевом" коде
+    //             realSrc += '?nocache=' + Math.random();
+
+    //             img.src = realSrc;
+
+    //             img.dataset.src = '';
+    //         }
+    //     }
+    // }
 
     main();
 });
