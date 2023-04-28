@@ -114,6 +114,12 @@ h1,h2,h3,h4,h5,h6{
     justify-content: end;
 }
 
+.d-f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .center-direction{
     display: flex;
     width: 100%;
@@ -480,4 +486,21 @@ h1,h2,h3,h4,h5,h6{
     font-size: 20px;
     font-weight: 700;
     margin-top: 15px;
+}
+
+
+
+/* =========================================== */
+
+.density__container .scrol__bar{
+    position: relative;
+}
+
+.density__container .scrol__bar::after{
+    content: attr(max)  ' г/м\00B2';
+    position: absolute;
+}
+.density__container .scrol__bar::before{
+    content: attr(min)  ' г/м\00B2';
+    position: absolute;
 }
